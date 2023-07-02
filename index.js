@@ -1,5 +1,6 @@
 // Your code here
 const dodger = document.getElementById("dodger");
+    dodger.style.backgroundColor = "#FF69B4";
     const leftNumbers = dodger.style.left.replace("px","");
     const left = parseInt(leftNumbers, 10);
 
